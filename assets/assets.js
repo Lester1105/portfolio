@@ -6,12 +6,14 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
+import web_res_icon from './web-res-icon.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
+import ui_imp_icon from './ui-imp-icon.png';
+import web_dev_icon from './web-dev-icon.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -25,6 +27,7 @@ import arrow_icon from './arrow-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
 import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
+import web_mainte_icon from './web-mainte-icon.png'
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
@@ -37,6 +40,9 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
+    web_mainte_icon,
+    web_dev_icon,
+    ui_imp_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -45,7 +51,7 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
+    web_res_icon,
     figma,
     git,
     mongodb,
@@ -100,10 +106,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_res_icon, title: 'Responsive Web Design', description: 'Creating websites that look great and work smoothly on all devices.'},
+    { icon: assets.web_dev_icon, title: 'Website Development', description: 'Building fast, modern, and maintainable websites using HTML, CSS, and JavaScript.' },
+    { icon: assets.ui_imp_icon, title: 'UI Implementation', description: 'Turning design mockups into fully functional front-end code with attention to detail.'},
+    { icon: assets.web_mainte_icon, title: 'Website Maintenance', description: 'Fixing bugs, updating content, and improving performance on existing websites.'},
 ]
 
 export const infoList = [
@@ -113,5 +119,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.figma, assets.git
 ];
