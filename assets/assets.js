@@ -84,23 +84,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'rock paper scissor',
+        description: 'Simple game app using react.js',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Random Quote Machine',
+        description: 'Simple App using react.js',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Etch a Scketch',
+        description: 'Simple App using react.js',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Social proof section',
+        description: 'Web Design',
         bgImage: '/work-4.png',
     },
 ]
