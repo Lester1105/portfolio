@@ -85,7 +85,7 @@ export const assets = {
 export const workData = [
     {
         title: 'rock paper scissor',
-        description: 'Simple game app using react.js',
+        description: 'Simple game using react.js',
         bgImage: '/work-1.png',
     },
     {
