@@ -84,24 +84,34 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Cloned website',
+        description: 'Wordpress site with Divi theme',
+        bgImage: '/work-5.png',
+        link: 'https://divicribclone.infinityfreeapp.com/',
+    },
+    {
         title: 'rock paper scissor',
         description: 'Simple game using react.js',
         bgImage: '/work-1.png',
+        link: 'https://lester1105.github.io/odin_rockPaperScissor/',
     },
     {
         title: 'Random Quote Machine',
         description: 'Simple App using react.js',
         bgImage: '/work-2.png',
+        link: 'https://lester1105.github.io/random-quote-machine/',
     },
     {
         title: 'Etch a Scketch',
         description: 'Simple App using react.js',
         bgImage: '/work-3.png',
+        link:'https://lester1105.github.io/odin_etchaScketch/',
     },
     {
         title: 'Social proof section',
         description: 'Web Design',
         bgImage: '/work-4.png',
+        link:'https://lester1105.github.io/social-proof-section/',
     },
 ]
 
